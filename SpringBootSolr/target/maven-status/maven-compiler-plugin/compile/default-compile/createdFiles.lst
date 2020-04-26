@@ -1,0 +1,3 @@
+com\javasampleapproach\solr\model\Customer.class
+com\javasampleapproach\solr\repo\CustomerRepository.class
+com\javasampleapproach\solr\SpringBootSolrApplication.class

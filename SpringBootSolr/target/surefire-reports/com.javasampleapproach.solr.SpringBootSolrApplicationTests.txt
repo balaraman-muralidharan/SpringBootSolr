@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: com.javasampleapproach.solr.SpringBootSolrApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.738 s <<< FAILURE! - in com.javasampleapproach.solr.SpringBootSolrApplicationTests
+contextLoads(com.javasampleapproach.solr.SpringBootSolrApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.DataAccessResourceFailureException: 
+Error from server at http://localhost:8983/solr: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404 Not Found</h2>
+<table>
+<tr><th>URI:</th><td>/solr/customer/update</td></tr>
+<tr><th>STATUS:</th><td>404</td></tr>
+<tr><th>MESSAGE:</th><td>Not Found</td></tr>
+<tr><th>SERVLET:</th><td>default</td></tr>
+</table>
+
+</body>
+</html>
+; nested exception is org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: Error from server at http://localhost:8983/solr: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404 Not Found</h2>
+<table>
+<tr><th>URI:</th><td>/solr/customer/update</td></tr>
+<tr><th>STATUS:</th><td>404</td></tr>
+<tr><th>MESSAGE:</th><td>Not Found</td></tr>
+<tr><th>SERVLET:</th><td>default</td></tr>
+</table>
+
+</body>
+</html>
+
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrClient$RemoteSolrException: 
+Error from server at http://localhost:8983/solr: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404 Not Found</h2>
+<table>
+<tr><th>URI:</th><td>/solr/customer/update</td></tr>
+<tr><th>STATUS:</th><td>404</td></tr>
+<tr><th>MESSAGE:</th><td>Not Found</td></tr>
+<tr><th>SERVLET:</th><td>default</td></tr>
+</table>
+
+</body>
+</html>
+
+

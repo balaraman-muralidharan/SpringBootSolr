@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootSpringDataSolrExample
+Implementation-Version: 0.0.1
+Built-By: Admin
+Implementation-Vendor-Id: com.javasampleapproach.solr
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBootSolr
+Created-By: Maven Integration for Eclipse
+
